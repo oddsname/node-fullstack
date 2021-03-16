@@ -1,0 +1,7 @@
+/backend/.env
+/frontend/.env
+/docker/db
+/backend/dist
+/frontend/dist
+/backend/node_modules
+/frontend/node_modules
