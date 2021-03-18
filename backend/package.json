@@ -6,8 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon -L server.ts",
-    "migrate": "npm exec sequelize-cli db:migrate",
-    "migrate-back": "npm exec sequelize-cli db:migrate:undo",
     "ts-server": "ts-node server.ts"
   },
   "author": "",
@@ -20,7 +18,9 @@
     "nodemon": "^2.0.7",
     "path": "^0.12.7",
     "pg": "^8.5.1",
+    "reflect-metadata": "^0.1.13",
     "sequelize": "^6.5.0",
+    "ts-node": "^9.1.1",
     "typeorm": "^0.2.31"
   },
   "devDependencies": {
